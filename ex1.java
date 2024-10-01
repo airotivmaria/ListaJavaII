@@ -4,24 +4,37 @@ import java.util.Scanner;
 public class ex1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         int[] numeros = new int[30];
-        int[] pares = new int[]{};
-        int[] impares = new int[]{};
+        int[] pares = new int[30];
+        int[] impares = new int[30];
+        int iPares = 0;
+        int iImpar = 0;
+        
 
-        for (int posicaoVetor = 0; posicaoVetor < numeros.length; posicaoVetor++){
+        for (int i = 0; i < numeros.length; i++){
             System.out.print("Digite um número inteiro, é permitido números positivos e negativos: ");
-            numeros[posicaoVetor] = scanner.nextInt();
+            numeros[i] = scanner.nextInt();
+        }
 
-            if (numeros[posicaoVetor] % 2 == 0) {
-                Arrays.fill(pares, posicaoVetor);
-                System.out.println(Arrays.toString(pares));
+        for (int numero : numeros) {
+            if(numero % 2 == 0){
+                pares[iPares] = numero;
+                iPares++;
             } else {
-                Arrays.fill(impares, posicaoVetor);
+                impares[iImpar] = numero;
+                iImpar++;
             }
         }
 
-        System.out.println(Arrays.toString(pares));
-        System.out.println(Arrays.toString(impares));
+        for (int par : pares) {
+            System.out.print(par + " ");
+        }
+        System.out.println("\n");
+
+        for (int impar : impares) {
+            System.out.print(impar + " ");
+        }
     }
     
 }
