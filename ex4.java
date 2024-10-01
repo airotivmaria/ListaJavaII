@@ -1,5 +1,8 @@
+// Construa um algoritmo que receberá valores inteiros em quantidade suficiente para monta uma matriz de 10x10 posições. Ao final, o algoritmo escreverá o maior valor encontrado. Além dele, serão apresentados, também, todos os elementos presentes na linha e coluna em que se encontra o maior valor.
+
 import java.util.Scanner;
-public class ex4 {
+
+public class ex4{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[][] numeros = new int[10][10];

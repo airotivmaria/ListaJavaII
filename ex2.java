@@ -1,3 +1,5 @@
+// Crie um programa que receba 100 valores e armazena-os em um vetor. Em seguida, o programa deverá apresentar todas as posições do vetor em que há um valor menor ou igual a 10 armazenado, informando o índice da posição.
+
 import java.util.Scanner;
 
 class ex2 {

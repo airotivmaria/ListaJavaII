@@ -1,5 +1,8 @@
+// Desenvolva uma função que recebe os valores da hipotenusa e dos dois catetos e retorna "true" quando o triângulo for retângulo, ou seja, se o quadrado da hipotenusa é igual à soma do quadrado dos catetos. Caso contrário, retoma falso "false".
+
 import java.util.Scanner;
-public class ex9 {
+
+public class ex9{
     
     public static boolean pitagoras(int hipotenusa, int cateto1, int cateto2){
         int a = hipotenusa * hipotenusa;
