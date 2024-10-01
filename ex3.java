@@ -23,7 +23,7 @@ public class ex3 {
         }
 
         for(int m = 0; m < numeros.length; m++){
-            soma += numeros[m][escolha]; 
+            soma += numeros[m][escolha];
 
         }
         System.out.print("A soma da coluna escolhida foi de "+ soma);
