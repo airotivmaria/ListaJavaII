@@ -1,1 +1,1 @@
-# Lista de exercícios propostos em Java. ☕💻
+# Lista II de exercícios propostos em Java. ☕💻
